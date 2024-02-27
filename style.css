@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+    align-items: center;
+    background: lightgray;
+   
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 10px rgba(245, 245, 245, 0.806),10px 10px 10px rgba(0, 0, 0, 0.675);
+    border: 0;
+ 
+  }
+
+  textarea{
+    border-radius: 20px;
+    width: 20rem;
+    background: transparent;
+    box-shadow: inset -5px -5px 5px rgba(245, 245, 245, 0.806),5px 5px 8px rgba(0, 0, 0, 0.675) inset;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(78, 3, 81);
+    border: 0;
+    width: 90%;
+  }
+  button{
+    padding: 15px ;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: -3px -3px 3px rgba(245, 245, 245, 0.806),3px 3px 3px rgba(0, 0, 0, 0.675);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+    background: lightgrey;
+}
+i:hover{
+    color: red;
+}
+h2{
+    margin-bottom:30px ;
+    color: red;
+
+}
+p{
+    color: red;
+    font-weight: bolder;
+}
+@media screen and (max-width:550px) {
+    .main{
+        width: 90%;
+    }
+    
+}
